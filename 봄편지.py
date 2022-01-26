@@ -63,4 +63,4 @@ async def on_message(message): # 메시지가 들어 올 때마다 가동되는 
             await message.channel.send("✏ 너에겐 그럴 자격이 없어!")
 
 # 여기 token에는 토큰을 넣지 않고 그대로 옮겨 쓰시면 됩니다.
-client.run(token) # 아까 넣어놓은 토큰 가져다가 봇을 실행하라는 부분입니다. 이 코드 없으면 구문이 아무리 완벽해도 실행되지 않습니다.
+TOKEN = os.environ.get('BOT_TOKEN') # 아까 넣어놓은 토큰 가져다가 봇을 실행하라는 부분입니다. 이 코드 없으면 구문이 아무리 완벽해도 실행되지 않습니다.
