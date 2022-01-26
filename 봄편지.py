@@ -8,7 +8,7 @@ import discord, asyncio
 
 from setuptools import Command # 디스코드 모듈과, 보조 모듈인 asyncio를 불러옵니다.
 
-token = "OTM1MTE5ODQ0MzI2NjQ1ODMw.Ye6AOA.PUwVxaEeKOCvvnc4Ac0YqOkppmU"; # 아까 메모해 둔 토큰을 입력합니다
+token = "OTM1MTE5ODQ0MzI2NjQ1ODMw.Ye6AOA.57rHBUJJX5iSF_3jzPKJi24wYvk"; # 아까 메모해 둔 토큰을 입력합니다
 client = discord.Client(commands_delif = "#"); # discord.Client() 같은 긴 단어 대신 client를 사용하겠다는 선언입니다.
 
 @client.event
